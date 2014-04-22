@@ -4,8 +4,10 @@ Om wrapper around the CodeMirror browser editor with Clojure syntax highlighting
 
 ## Usage
 Run:
-```lein cljsbuild auto
-And load index.html in your browser.
+```
+lein cljsbuild auto
+```
+then load index.html in your browser.
 
 Hosted demo:
 http://cwo.io/om-codemirror/index.html
