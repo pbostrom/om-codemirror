@@ -1,0 +1,16 @@
+/* Global Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 10px;
+}
+
+.cm-box {
+  padding: 10px 7px;
+  border: 1px solid #ccc;
+  background-color: #EAEAEA;
+}
