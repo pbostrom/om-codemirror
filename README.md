@@ -20,4 +20,5 @@ This repository includes CodeMirror version 3.19. See http://codemirror.net/inde
 
 Copyright © 2014 Paul Bostrom
 Licensed under the Eclipse Public License.
+
 http://www.eclipse.org/legal/epl-v10.html
