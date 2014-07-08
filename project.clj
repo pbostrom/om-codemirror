@@ -7,7 +7,7 @@
                  [org.clojure/clojurescript "0.0-2227"]
                  [org.clojure/core.async "0.1.278.0-76b25b-alpha"]
                  [org.webjars/codemirror "4.3"]
-                 [om "0.6.0"]]
+                 [om "0.6.5-SNAPSHOT"]]
 
   :cljsasset {:js
               ["META-INF/resources/webjars/codemirror/4.3/lib/codemirror.js"
