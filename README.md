@@ -3,7 +3,7 @@
 Om wrapper around the CodeMirror JavaScript browser editor with Clojure syntax highlighting and paren matching. Currently uses CodeMirror 4.6.
 
 ## Usage
-Add `[om-codemirror "0.2.0-SNAPSHOT"]` to the `:dependencies` section in `project.clj`.
+Add `[om-codemirror "0.2.0"]` to the `:dependencies` section in `project.clj`.
 
 The `om-codemirror.core` namespace provides a single Om component, `editor`, which you can pass to `om.core/build`:
 ```clj
