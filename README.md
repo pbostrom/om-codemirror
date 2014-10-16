@@ -5,7 +5,7 @@ Om wrapper around the CodeMirror JavaScript browser editor with Clojure syntax h
 ## Usage
 Add `[om-codemirror "0.2.0-SNAPSHOT"]` to the `:dependencies` section in `project.clj`.
 
-The `om-codemirror.core` provides a single Om component, `editor`, which you can pass to `om.core/build`:
+The `om-codemirror.core` namespace provides a single Om component, `editor`, which you can pass to `om.core/build`:
 ```clj
 (ns om-editor.app
   (:require [om-codemirror.core :as cm]
