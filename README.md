@@ -37,7 +37,7 @@ If you wish to change the default path of the output files, then add a `:cljsass
             :css-output {:dir "resources/public/my-css"
                            :file "my-assets.css"}}
 ```
-See https://github.com/pbostrom/lein-cljsasset for more information.
+See [lein-cljsasset](https://github.com/pbostrom/lein-cljsasset) for more information.
 
 ## License
 
