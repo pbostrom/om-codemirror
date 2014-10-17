@@ -15,7 +15,7 @@ The `om-codemirror.core` namespace provides a single Om component, `editor`, whi
 (om/build cm/editor app
             {:init-state {:comm comm-channel}})
 ```
-You can pass a `core.async` channel as the value for `:comm` in the `:init-state` map. Events captured by `om-codemirror` will be placed on the channel. The event system is currently a work-in-progress and doesn't do much besides return keywords representing two hotkey events: Ctrl-Shift-Z and Ctrl-Shift-X. For a full example app see https://github.com/pbostrom/om-editor-app
+You can pass a `core.async` channel as the value for `:comm` in the `:init-state` map. Events captured by `om-codemirror` will be placed on the channel. The event system is currently a work-in-progress and doesn't do much besides return keywords representing two hotkey events: Ctrl-Shift-Z and Ctrl-Shift-X. For a full example app see [om-editor-app](https://github.com/pbostrom/om-editor-app).
 
 ## Resolving CodeMirror dependencies
 Use the `lein-cljsasset` plugin to get the CodeMirror JavaScript and CSS files. Add the plugin to the `:plugins` section in your `project.clj`:
